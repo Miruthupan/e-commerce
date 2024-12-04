@@ -7,7 +7,7 @@ const Breackcrums = (props) => {
 
   return (
     <div className='breackcrums'>
-      HOME <img src={arrow_icon} alt=""/> <img src={arrow_icon} alt=''/>
+      HOME <img src={arrow_icon} alt=""/> <img src={arrow_icon} alt=''/>{product.category}<img src={arrow_icon} alt=''/>{product.name}
     </div>
   )
 }
